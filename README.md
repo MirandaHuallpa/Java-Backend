@@ -34,7 +34,21 @@ Cuando se crea un proyecto nuevo, ya les viene armado para programar con este pa
 
 Pasos a seguir:
 <ol>
-  <li> New Proyect -> </li>
+  <li> New Proyect -> Java with Maven -> Web Application -> CrudWeb<br>
+  Package características de Maven.
+  </li>
+  
+  <li>Usar Maven sin usar NetBeans: 
+    Ingreso a "Maven" ->download -> "apache-maven-3.3" -> Comando "mvm -v" para saber si esta instalada.
+    Maven vive y existe dentro de la carpeta donde esta, para poder usarla fuera se tiene que configurar las variables de entorno del sistema.
+    <br> En Windows: Propiedades del sistema -> Variables de entorno -> Agrego Maven a Path.
+    Esto hace que sea público para todo el sistema.
+    Crear proyecto Maven por consola : >>>mvm archetype:generate -> 1 -> version 3 -> nombre del proyecto.
+  </li>
+  
+  <li>
+    Creo 
+  </li>
 </ol>
 
 
