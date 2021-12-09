@@ -2,7 +2,7 @@
 Programa Codo a Codo
 
 <h2>Crud Consola</h2>
-
+CLASE 29
 Creación de proyecto en Apache NetBeans con Java with Maven y Java Application.
 
 Maven es un gestor de proyectos, que nos permite generar proyectos donde se pueda bajar o nombrar las <b>dependencias</b> que se usarán.
@@ -19,6 +19,24 @@ Con Maven nos podemos olvidar de las compatibilidades de librerías.
     import java.sql.SQLException;<br>
     import java.sql.*;<br>
 </ul>
+
+
+<h2>Crud Web</h2>
+
+Creación de proyecto Web,según un padrón de diseño de Software que se llama MVC (Modelo Vista Controlador).
+Separa la información en distintas capas: en la vista tendremos el diseño y la presentación, lo que se mostrará.
+Por otro lado tenemos el Modelo, que es la estructura de datos y la logica.
+Por último, tendremos un Controlador (Enrutador) que coordinará la acciones entre la vista y el modelo.
+En el modelo se armarán todas las clases que voy a necesitar, por otro lado armaré las vistas que serian las páginas que voy a usar.
+Y el controlar hará la función de conectar los datos, pasándolos de un lado al otro.
+
+Cuando se crea un proyecto nuevo, ya les viene armado para programar con este patrón.
+
+Pasos a seguir:
+<ol>
+  <li> New Proyect -> </li>
+</ol>
+
 
 
 
