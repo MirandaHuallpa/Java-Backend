@@ -45,7 +45,9 @@ Pasos a seguir:
     Esto hace que sea público para todo el sistema.
     Crear proyecto Maven por consola : >>>mvm archetype:generate -> 1 -> version 3 -> nombre del proyecto.
   </li>
-  
+    En Web Pages -> New Folder -> nombre: "Vistas"
+    Dentro de la carpeta "Vistas" creo tres archivos: alumnos.jsp
+    Van a tener porciones de código en Java, usando <% %>
   <li>
     Creo 
   </li>
