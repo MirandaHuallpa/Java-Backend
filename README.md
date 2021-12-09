@@ -45,11 +45,17 @@ Pasos a seguir:
     Esto hace que sea público para todo el sistema.
     Crear proyecto Maven por consola : >>>mvm archetype:generate -> 1 -> version 3 -> nombre del proyecto.
   </li>
-    En Web Pages -> New Folder -> nombre: "Vistas"
-    Dentro de la carpeta "Vistas" creo tres archivos: alumnos.jsp
-    Van a tener porciones de código en Java, usando <% %>
   <li>
-    Creo 
+    En Web Pages -> New Folder -> nombre: "Vistas"
+    Dentro de la carpeta "Vistas" creo tres archivos: New -> JSP -> alumnos.jsp, nuevo.jsp, modificar.jsp.
+    Van a tener porciones de código en Java, usando <% %>. Lo que este afuera es código HTML.
+  </li>
+  <li>
+    Creo 3 nuevos paquetes en Source Package -> New -> New Java Package: config, modelo y controlador.
+    En Config crearé una clase Java Class -> Conexion.java.
+    En Modelo creo tres clases: Alumnos.java, AlumnosDAO.java.
+    En el package crear sevrlet: AlumnosController.
+    MIN 46:52
   </li>
 </ol>
 
