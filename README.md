@@ -57,6 +57,10 @@ Pasos a seguir:
     En el package crear sevrlet: AlumnosController.
     MIN 46:52
   </li>
+  <li>
+    Dentro del package en controlador, añado un servlet llamado AlumnosController.
+    Que lo que hara es rediridirlo a otra pagina como en las Vistas que creamos anteriormente.
+  </li>
 </ol>
 
 
