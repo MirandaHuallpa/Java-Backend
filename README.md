@@ -53,7 +53,7 @@ Pasos a seguir:
   <li>
     Creo 3 nuevos paquetes en Source Package -> New -> New Java Package: config, modelo y controlador.
     En Config crearé una clase Java Class -> Conexion.java.
-    En Modelo creo tres clases: Alumnos.java, AlumnosDAO.java.
+    En Modelo creo tres clases: Alumnos.java, AlumnosDAO.java (Data Access Object)
     En el package crear sevrlet: AlumnosController.
     MIN 46:52
   </li>
