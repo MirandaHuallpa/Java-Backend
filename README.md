@@ -63,6 +63,100 @@ Pasos a seguir:
   </li>
 </ol>
 
+En config -> Conexion.java escribir el siguiente codigo:
+
+```
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+/**
+ *
+ * @author miranda
+ */
+public class Conexion {
+    
+    public String driver = "com.mysql.jdbc.Driver";
+    
+    
+    public Connection getConnection(){
+        
+        Connection conexion = null;
+        
+        try {
+            Class.forName(driver);
+            conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/crudweb","root","");
+        }
+        catch (ClassNotFoundException|SQLException e){
+            System.out.println(e.toString());
+        }
+        return conexion;
+    }
+    
+}
+```
+
+En modelos -> Alumnos.java escribir el siguiente código:
+
+```
+public class Alumnos {
+    private int id;
+    private String nombre;
+    private String apellido;
+    private String mail;
+    
+    public Alumnos (int id, String nombre, String apellido, String mail){
+        this.id = id;
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.mail = mail;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getApellido() {
+        return apellido;
+    }
+
+    public void setApellido(String apellido) {
+        this.apellido = apellido;
+    }
+
+    public String getMail() {
+        return mail;
+    }
+
+    public void setMail(String mail) {
+        this.mail = mail;
+    }
+}
+```
+
+En Proyect Files -> pom.xml añado la dependencia de MySQL con la versión que más desragas tenga, 8.0.27
+
+```
+<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>8.0.27</version>
+</dependency>
+```
+
 
 
 
