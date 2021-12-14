@@ -156,7 +156,17 @@ En Proyect Files -> pom.xml añado la dependencia de MySQL con la versión que m
     <version>8.0.27</version>
 </dependency>
 ```
+<h3>Clase 32 </h3>
+En el Source Package -> modelo -> Alumnos.java
+Creo la clase con los 4 que la componen (id,nombre,apelllido,mail) que va a tener también el méstodo constructor.
+Esto sirve para que cada vez que creemos un metodo de la clase alumnos, lo creemos si o si, con estos componentes.
+Como las propiedades de la clase alumnos son privadas, tenemos que crear los getset, para poder a esas propiedades.
+Click derecho -> insert code -> getters y setters
 
+AlumnosDao:
+Va a instanciar un nuevo objeto en la clase alumno pero a su vez, va a crear una conexión con la base de datos.
+Va a crear todos los métodos para que pueda utilizar esa conexión a la base de datos con los métodos que ya conocemos y
+del proyecto anterior, que seria, "listarAlumnos()", "mostrarAlumno()", 
 
 
 
